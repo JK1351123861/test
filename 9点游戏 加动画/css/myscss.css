@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    height:700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    background-image: url(../images/cards/Desktop_alone.jpg);
+    background-repeat: no-repeat;
+}
+#player,#Zj{
+    position: relative;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+    opacity:0;
+}
+
+#player.win::before,#Zj.win::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 65px;
+    left: 0;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../images/cards/win.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#player.lose::before,#Zj.lose::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 65px;
+    left: 0;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../images/cards/lose.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#button-area{
+    position: relative;
+    display: flex;
+    width:100%;
+    height:200px;
+    justify-content: center;
+    flex-direction:row;
+}
+#button-area>*{
+    width: 0;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 200px;
+    font-size: 3em;
+    color: white;
+}
+
+#return{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.return{
+    width: 30px;
+    height: 30px;
+    margin: 0 0 10px 0;
+}
+
+.card{
+    width: 65px;
+    height:100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/cards/hit_small.png");
+}
+.button{
+    position:absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.start{
+    width:100px;
+    height:45px;
+}
+
+.starts{
+    width: 100px;
+    height: 45px;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    margin-top:270px;
+}

@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    height:700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    background-image: url(../images/cards/Desktop_double.jpg);
+    background-repeat: no-repeat;
+}
+#player,#Zj,#players{
+    position: relative;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+    opacity: 0;
+}
+
+#player.win::before,#players.win::before,#Zj.win::before{
+    position: absolute;
+    height: 100px;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 65px;
+    left: 0;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../images/cards/win.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#player.lose::before,#players.lose::before,#Zj.lose::before{
+    position: absolute;
+    height: 100px;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 65px;
+    left: 0;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../images/cards/lose.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#button-area{
+    position: relative;
+    display: flex;
+    width:100%;
+    height:200px;
+    justify-content: center;
+    flex-direction:row;
+}
+#button-area>*{
+    width: 0;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 200px;
+    font-size: 3em;
+    color: white;
+}
+
+#playerss{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    width:800px;
+    height:300px;
+    margin:0 auto;
+}
+
+#background{
+    height:700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    background-image: url(../images/cards/Desktop_main.jpg);
+    background-repeat: no-repeat;
+}
+
+#pattern_case{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 600px;
+    background: rgba(255,255,255,.1);
+    overflow: hidden;
+    box-shadow:10px 10px 10px rgba(0,0,0,0.5);
+}
+
+#pattern_cases{
+    position: relative;
+    margin:20px auto;
+    width: 360px;
+    height: 560px;
+    background: rgba(255,255,255,.4);
+    overflow: hidden;
+}
+
+#pattern{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    margin:18px auto;
+    width: 324px;
+    height: 524px;
+    overflow: hidden;
+}
+
+#pattern_top{
+    width:100%;
+    height:100px;
+    background-image: url("../images/cards/pattern_top.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#button_both{
+    width:100%;
+    height:100px;
+    margin-top: 40px;
+    background-image: url("../images/cards/button_both.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#button_alone{
+    width:100%;
+    height:100px;
+    margin-top: 20px;
+    background-image: url("../images/cards/button_alone.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#pattern_bottom{
+    width:100%;
+    height:124px;
+    margin-top: 20px;
+    background-image: url("../images/cards/pattern_bottom.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#return{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.return{
+    width: 30px;
+    height: 30px;
+    margin: 0 0 10px 0;
+}
+
+.card{
+    width: 65px;
+    height:100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/cards/hit_small.png");
+}
+
+.button{
+    position:absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.start{
+    width:100px;
+    height:45px;
+}
+
+.starts{
+    width: 100px;
+    height: 45px;
+}
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    margin-top:270px;
+}
