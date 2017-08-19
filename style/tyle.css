@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #f5f5f5;
+}
+
+@font-face {
+	font-family: 'iconfont';  /* project id 389899 */
+	src: url('../style/iconfont.eot');
+	src: url('../style/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('../style/iconfont.woff') format('woff'),
+	url('../style/iconfont.ttf') format('truetype'),
+	url('../style/iconfont.svg#iconfont') format('svg');
+}
+
+.icon{
+	font-family:"iconfont" !important;
+	font-size:30px;
+	font-style:normal;
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 5%;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.arrow{
+	font-family:"iconfont" !important;
+	font-size:20px;
+	font-style:normal;
+	line-height: 40px;
+	color: #c3c3c3;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.leave-type{
+	display: flex;
+	width: 100%;
+	height: 40px;
+	background: #ffffff;
+	margin: 20px auto;
+}
+
+.time{
+	display: flex;
+	width: 100%;
+	height: 40px;
+	background: #ffffff;
+}
+
+.flex{
+	display: flex;
+}
+
+.leave-because{
+	width: 100%;
+	height: 120px;
+	background: #ffffff;
+	margin-top: 20px;
+}
+
+.add-blok{
+	width: 100%;
+	height: 100px;
+	background: #ffffff;
+	margin-top: 20px;
+}
+
+.button{
+	width: 90%;
+	height: 40px;
+	background: #417db9;
+	border-radius: 4px;
+	color: #ffffff;
+	margin:20px auto ;
+	text-align: center;
+	line-height: 40px;
+}
+
+.left-font{
+	font-size: 15px;
+	line-height: 40px;
+	margin-left: 5%;
+}
+
+text{
+	color: red;
+	font-size: 10px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.right-font{
+	font-size: 15px;
+	line-height: 40px;
+	margin-left: 58%;
+	color: #c3c3c3;
+}
+
+.data{
+	width: 20%;
+	height: 100%;
+	margin-left: 50%;
+	font-size: 15px;
+	line-height: 40px;
+	border: 0;
+	text-align: right;
+	outline: none;
+	color: #c3c3c3;
+}
+
+.rights-font{
+	font-size: 15px;
+	line-height: 40px;
+	color: #c3c3c3;
+}
+
+.text-block{
+	width: 90%;
+	height: 80px;
+	text-indent: 2em;
+	font-size: 15px;
+	line-height: 15px;
+	margin-left: 5%;
+	border: 0;
+	outline: none;
+}
