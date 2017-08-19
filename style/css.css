@@ -97,7 +97,7 @@ url('../style/webfont.svg#思源黑体-细') format('svg'); /* iOS 4.1- */
 
 .interval-line{
 	width: 95%;
-	height: 5px;
+	height: 2px;
 	margin-left: 5%;
 	background: #e6e6e6;
 }
