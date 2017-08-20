@@ -123,6 +123,18 @@ text{
 	color: #c3c3c3;
 }
 
+.data-money{
+	width: 20%;
+	height: 100%;
+	margin-left: 54%;
+	font-size: 15px;
+	line-height: 40px;
+	border: 0;
+	text-align: right;
+	outline: none;
+	color: #c3c3c3;
+}
+
 .rights-font{
 	font-size: 15px;
 	line-height: 40px;
