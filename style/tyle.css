@@ -54,6 +54,13 @@ body{
 	background: #ffffff;
 }
 
+.line{
+	width: 90%;
+	height: 1px;
+	background: #dedede;
+	margin-left: 10%;
+}
+
 .line-top{
 	border-top: 1px solid #dedede;
 }
@@ -64,6 +71,11 @@ body{
 
 .flex{
 	display: flex;
+}
+
+.flex-column{
+	display: flex;
+	flex-direction:column;
 }
 
 .leave-because{
@@ -102,19 +114,27 @@ text{
 	font-size: 10px;
 	text-align: center;
 	line-height: 40px;
+	padding-left: 5px;
 }
 
 .right-font{
 	font-size: 15px;
 	line-height: 40px;
-	margin-left: 58%;
+	margin-left: 56%;
+	color: #c3c3c3;
+}
+
+.right-font-number{
+	font-size: 15px;
+	line-height: 40px;
+	margin-left: 38%;
 	color: #c3c3c3;
 }
 
 .data{
 	width: 20%;
 	height: 100%;
-	margin-left: 50%;
+	margin-left: 48%;
 	font-size: 15px;
 	line-height: 40px;
 	border: 0;
@@ -126,7 +146,7 @@ text{
 .data-money{
 	width: 20%;
 	height: 100%;
-	margin-left: 54%;
+	margin-left: 52%;
 	font-size: 15px;
 	line-height: 40px;
 	border: 0;
