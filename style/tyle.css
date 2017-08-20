@@ -39,6 +39,19 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
+.icon-images{
+	font-family:"iconfont" !important;
+	font-size:40px;
+	font-style:normal;
+	line-height: 40px;
+	margin-left: 30%;
+	color: #56ac49;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 .leave-type{
 	display: flex;
 	width: 100%;
@@ -170,4 +183,28 @@ text{
 	margin-left: 5%;
 	border: 0;
 	outline: none;
+}
+
+.menu-card{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	background: #ffffff;
+	margin-top: 30px;
+}
+
+.time-thing{
+	width: 60%;
+	height: 100%;
+	margin: 10px;
+}
+
+.title-font{
+	font-size: 18px;
+}
+
+.details{
+	font-size: 12px;
+	color: #999999;
+	line-height: 20px;
 }
