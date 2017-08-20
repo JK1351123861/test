@@ -132,9 +132,8 @@ text{
 .text-block{
 	width: 90%;
 	height: 80px;
-	text-indent: 2em;
 	font-size: 15px;
-	line-height: 15px;
+	line-height: 20px;
 	margin-left: 5%;
 	border: 0;
 	outline: none;
