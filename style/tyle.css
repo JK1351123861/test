@@ -29,8 +29,10 @@ body{
 }
 
 .arrow{
+	position: absolute;
+	right: 0.3rem;
 	font-family:"iconfont" !important;
-	font-size:1.2rem;
+	font-size:1.1rem;
 	font-style:normal;
 	line-height: 3rem;
 	color: #c3c3c3;
@@ -55,7 +57,7 @@ body{
 .leave-type{
 	display: flex;
 	width: 100%;
-	height:3.75rem;
+	height:3rem;
 	background: #ffffff;
 	margin: 0.5rem auto;
 }
@@ -107,7 +109,7 @@ body{
 
 .button{
 	width: 90%;
-	height: 3rem;
+	height: 2.8rem;
 	background: #417db9;
 	border-radius: 4px;
 	color: #ffffff;
@@ -131,9 +133,10 @@ text{
 }
 
 .right-font{
+	position: absolute;
+	right: 1.2rem;
 	font-size: 0.975rem;
 	line-height: 3rem;
-	margin-left: 56%;
 	color: #c3c3c3;
 }
 
@@ -145,9 +148,10 @@ text{
 }
 
 .data{
+	position: absolute;
+	right: 0.8rem;
 	width: 20%;
-	height: 100%;
-	margin-left: 48%;
+	height: 3rem;
 	font-size: 0.975rem;
 	line-height: 3rem;
 	border: 0;
@@ -157,9 +161,10 @@ text{
 }
 
 .data-money{
+	position: absolute;
+	right: 0.3rem;
 	width: 20%;
-	height: 100%;
-	margin-left: 52%;
+	height: 3rem;
 	font-size: 0.975rem;
 	line-height: 3rem;
 	border: 0;
@@ -169,6 +174,8 @@ text{
 }
 
 .rights-font{
+	position: absolute;
+	right: 0.3rem;
 	font-size: 0.975rem;
 	line-height: 3rem;
 	color: #c3c3c3;
