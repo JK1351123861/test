@@ -18,10 +18,10 @@ body{
 
 .icon{
 	font-family:"iconfont" !important;
-	font-size:1.8rem;
+	font-size:2.8rem;
 	font-style:normal;
 	text-align: left;
-	margin-top: 0.25rem;
+	margin-top: 0.4rem;
 	margin-left: 5%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-stroke-width: 0.2px;
@@ -30,9 +30,9 @@ body{
 
 .arrow{
 	font-family:"iconfont" !important;
-	font-size:0.8rem;
+	font-size:1.25rem;
 	font-style:normal;
-	line-height: 2rem;
+	line-height: 3.2rem;
 	color: #c3c3c3;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-stroke-width: 0.2px;
@@ -42,9 +42,9 @@ body{
 
 .icon-images{
 	font-family:"iconfont" !important;
-	font-size:1.8rem;
+	font-size:2.88rem;
 	font-style:normal;
-	line-height: 2rem;
+	line-height: 3.2rem;
 	margin-left: 30%;
 	color: #56ac49;
 	-webkit-font-smoothing: antialiased;
@@ -55,15 +55,15 @@ body{
 .leave-type{
 	display: flex;
 	width: 100%;
-	height: 2.5rem;
+	height: 4rem;
 	background: #ffffff;
-	margin: 0.5rem auto;
+	margin: 0.8rem auto;
 }
 
 .time{
 	display: flex;
 	width: 100%;
-	height: 2rem;
+	height: 3.2rem;
 	background: #ffffff;
 }
 
@@ -93,53 +93,53 @@ body{
 
 .leave-because{
 	width: 100%;
-	height: 6.5rem;
+	height: 10.4rem;
 	background: #ffffff;
-	margin-top: 0.5rem;
+	margin-top: 0.8rem;
 }
 
 .add-blok{
 	width: 100%;
-	height: 5rem;
+	height: 6rem;
 	background: #ffffff;
-	margin-top: 0.5rem;
+	margin-top: 0.8rem;
 }
 
 .button{
 	width: 90%;
-	height: 2rem;
+	height: 3.2rem;
 	background: #417db9;
 	border-radius: 4px;
 	color: #ffffff;
-	margin:0.5rem auto ;
+	margin:0.8rem auto ;
 	text-align: center;
-	line-height: 2rem;
+	line-height: 3.2rem;
 }
 
 .left-font{
-	font-size: 0.65rem;
-	line-height: 2rem;
+	font-size: 1.04rem;
+	line-height: 3.2rem;
 	margin-left: 5%;
 }
 
 text{
 	color: red;
-	font-size: 0.5rem;
+	font-size: 0.8rem;
 	text-align: center;
-	line-height: 2rem;
-	padding-left: 0.25rem;
+	line-height: 3.2rem;
+	padding-left: 0.4rem;
 }
 
 .right-font{
-	font-size: 0.65rem;
-	line-height: 2rem;
+	font-size: 1.04rem;
+	line-height: 3.2rem;
 	margin-left: 56%;
 	color: #c3c3c3;
 }
 
 .right-font-number{
-	font-size: 0.65rem;
-	line-height: 2rem;
+	font-size: 1.04rem;
+	line-height: 3.2rem;
 	margin-left: 38%;
 	color: #c3c3c3;
 }
@@ -148,8 +148,8 @@ text{
 	width: 20%;
 	height: 100%;
 	margin-left: 48%;
-	font-size: 0.65rem;
-	line-height: 2rem;
+	font-size: 1.04rem;
+	line-height: 3.2rem;
 	border: 0;
 	text-align: right;
 	outline: none;
@@ -160,8 +160,8 @@ text{
 	width: 20%;
 	height: 100%;
 	margin-left: 52%;
-	font-size: 0.65rem;
-	line-height: 2rem;
+	font-size: 1.04rem;
+	line-height: 3.2rem;
 	border: 0;
 	text-align: right;
 	outline: none;
@@ -169,17 +169,17 @@ text{
 }
 
 .rights-font{
-	font-size: 0.65rem;
-	line-height: 2rem;
+	font-size: 1.04rem;
+	line-height: 3.2rem;
 	color: #c3c3c3;
 }
 
 .text-block{
 	width: 90%;
-	height: 2rem;
+	height: 3.2rem;
 	resize : none;
-	font-size: 0.65rem;
-	line-height: 1rem;
+	font-size: 1.04rem;
+	line-height: 1.6rem;
 	margin-left: 5%;
 	border: 0;
 	outline: none;
@@ -188,23 +188,23 @@ text{
 .menu-card{
 	display: flex;
 	width: 100%;
-	height: 5rem;
+	height: 8rem;
 	background: #ffffff;
-	margin-top: 0.75rem;
+	margin-top: 1.2rem;
 }
 
 .time-thing{
 	width: 60%;
 	height: 100%;
-	margin: 0.5rem;
+	margin: 0.8rem;
 }
 
 .title-font{
-	font-size: 0.65rem;
+	font-size: 1.04rem;
 }
 
 .details{
-	font-size: 0.625rem;
+	font-size: 1.04rem;
 	color: #999999;
-	line-height: 1rem;
+	line-height: 1.6rem;
 }
