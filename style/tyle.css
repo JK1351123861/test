@@ -141,9 +141,10 @@ text{
 }
 
 .right-font-number{
+	position: absolute;
+	right: 1.3rem;
 	font-size: 0.975rem;
 	line-height: 3rem;
-	margin-left: 38%;
 	color: #c3c3c3;
 }
 
@@ -163,6 +164,7 @@ text{
 .data-money{
 	position: absolute;
 	right: 0.3rem;
+	width: 40%;
 	height: 3rem;
 	font-size: 0.975rem;
 	line-height: 3rem;
@@ -171,6 +173,20 @@ text{
 	outline: none;
 	color: #c3c3c3;
 }
+
+.datas-money{
+	position: absolute;
+	right: 0.8rem;
+	width: 40%;
+	height: 3rem;
+	font-size: 0.975rem;
+	line-height: 3rem;
+	border: 0;
+	text-align: right;
+	outline: none;
+	color: #c3c3c3;
+}
+
 
 .rights-font{
 	position: absolute;
