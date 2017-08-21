@@ -195,16 +195,18 @@ text{
 
 .time-thing{
 	width: 60%;
-	height: 100%;
-	margin: 0.75rem;
+	height: 80%;
+	margin:auto 0;
+	padding-left: 0.5rem;
 }
 
 .title-font{
 	font-size: 0.975rem;
+	padding-bottom: 0.5rem;
 }
 
 .details{
-	font-size: 0.975rem;
+	font-size: 0.7rem;
 	color: #999999;
 	line-height: 1.35rem;
 }
