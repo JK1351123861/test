@@ -9,6 +9,7 @@
 	<meta name="x5-orientation" content="portrait">
 	<meta name="format-detection" content="telephone=no">
 	<!--移动平台缩放控制--> <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> <!--手机点击数字禁用打电话--> <meta name="format-detection" content="telephone=no" />
+	<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
 	<script type="text/javascript" src="../javasript/Javascript.js"></script>
 </head>
 <body>
@@ -49,7 +50,7 @@
 			<div class="left-font">审批人</div>
 			<text>*</text>
 		</div>
-		<div class="icon" onclick="choose()">&#xe65d;</div>
+		<div class="icon" onclick="choose">&#xe65d;</div>
 	</div>
 	<div class="add-blok line-top line-bottom">
 		<div class="left-font">抄送人</div>
@@ -57,8 +58,7 @@
 	</div>
 	<div class="button">提交</div>
 	<script type="text/javascript">
-		function choose() {
-			WeixinJSBridge.invoke("selectEnterpriseContact", {
+		choose = WeixinJSBridge.invoke("selectEnterpriseContact", {
         "fromDepartmentId": -1,// 必填，-1表示打开的通讯录从自己所在部门开始展示, 0表示从最上层开始
         "mode": "single",// 必填，选择模式，single表示单选，multi表示多选
         "type": ["department", "user"],// 必填，选择限制类型，指定department、user中的一个或者多个
@@ -83,9 +83,7 @@
                 var userAvatar= user.avatar;// 已选的单个成员头像
             }
         }
-    }
-);
-		}
+}
 	</script>
 </body>
 </html>
